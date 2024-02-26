@@ -1,0 +1,48 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+     "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "RGU",
+     "patterns": ["Tell me about RGU ", "Ranking of RGU"],
+     "responses": ["The Assam Royal Global University(RGU) is a full-fledged Private University established under section 2(f) of the UGC Act and is included in the list of universities maintained by University Grants Commission with the right to confer degrees as per Section 22 of UGC Act, 1956.\n For more information visit https://www.rgu.ac/"],
+     "context_set": ""
+    },
+    {"tag": "hours",
+     "patterns": ["Timing of college", "What is college timing", "Working days", "Hours of operation", "College timing", "When should I come to college?", "When should I attend college"],
+     "responses": ["College is open 9 a.m. - 5 p.m. Monday to Friday\n Saturday is holiday"],
+     "context_set": ""
+    },
+    {"tag": "CSE HOD",
+     "patterns": ["Who is the HOD of CSE department", "Who is the Head of the department in CSE department?", "Who is the Head of the department of Computer Science and Engineering department? ", "What is CSE HOD name?", "Who is the head of CSE department?"],
+     "responses": ["Dr. Aniruddha Deka is the head of CSE department and visit https://www.rgu.ac/rsetfaculty.php to know more"],
+     "context_set": ""
+    },
+    {"tag": "clubs",
+     "patterns": ["What are differnt clubs in RGU?", "Are there any clubs?"],
+     "responses": ["The clubs are: \n SIGMA VOICE - English literature club \n CONFLUENCE - Dance and Singing club \n Media club\n Ethnos - The HR Club\n Sports Club\n Helping Hands-The Social Welfare Club"],
+     "context_set": ""
+    },
+    {"tag": "schools",
+     "patterns": ["Schools in RGU?", "What are the differnt schools in RGU?"],
+     "responses": ["Royal School of Applied & Pure Sciences(RSAPS)\n Royal School of Architecture(RSA)\n Royal School of Aviation & Flying(RSAF)\n Royal School of Commerce(RSC)\n Royal School of Communications & Media(RSCOM)\n Royal School of Design(RSD)\n Royal School of Engineering & Technology(RSET)\n Royal School of Information Technology(RSIT)\n Royal School of Behavioral & Allied Sciences(RSBAS) \n Royal School of Bio-Sciences(RSBSC)\n Royal School of Business(RSB)\n Royal School of Environmental & Earth Sciences(RSEES)\n Royal School Of Fashion Design & Technology(RSFT)\n Royal School of Fine Arts(RSFA)\n Royal School of Hotel Management(RSHM)\n Royal School of Humanities & Social Sciences(RSHSS)\n Royal School of Languages(RSL)\n Royal School of Law & Administration(RSLA)\n Royal School of Liberal Arts(RSLIA)\n Royal School of Life Sciences(RSLSC)\n Royal School of Medical & Allied Sciences(RSMAS)\n Royal School of Nursing(RSN)\n Royal School of Pharmacy(RSP)\n Royal School of Travel & Tourism Management(RSTTM)"],
+     "context_set": "" 
+    },
+    {"tag": "library",
+     "patterns": ["Central library of RGU", "How is the library of RGU" ],
+     "responses": ["The Cental Library of RGU is located at the 1st floor of B-block.\n The library remains open from 9.00 am to 5.00 pm (winter) and 9.00 am to 6.00 pm (summer) on all working days of the university."],
+     "context_set": ""
+    },
+    {"tag": "fest",
+     "patterns": ["fest in RGU?", "What are the fest occured in RGU till now?"],
+     "responses": ["Consensio\n Technophilia\n River Talks\n Karmotsav"],
+     "context_set": "" 
+    }
+]
+}
